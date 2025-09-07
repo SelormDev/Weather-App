@@ -28,7 +28,7 @@ function App() {
       {/* Insert daily forecast for the next 7 days here */}
       Hourly forecast
       {/* Insert hourly forecast for the selected day here */}
-      <div class="attribution">
+      <div className="attribution">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge">
           Frontend Mentor
