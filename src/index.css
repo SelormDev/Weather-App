@@ -1,0 +1,40 @@
+:root {
+  font-family: 'Bricolage_Grotesque';
+  /* line-height: 1.5; */
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque Bold";
+  src: url("./assets/fonts/Bricolage_Grotesque/static/BricolageGrotesque-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans Bold";
+  src: url("./assets/fonts/DM_Sans/static/DMSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans Light";
+  src: url("./assets/fonts/DM_Sans/static/DMSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans Medium";
+  src: url("./assets/fonts/DM_Sans/static/DMSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans SemiBold";
+  src: url("./assets/fonts/DM_Sans/static/DMSans-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "DM Sans SemiBold Italic";
+  src: url("./assets/fonts/DM_Sans/static/DMSans-SemiBoldItalic.ttf") format("truetype");
+}
