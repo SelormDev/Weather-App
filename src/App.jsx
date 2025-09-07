@@ -1,5 +1,16 @@
 import "./App.css";
 
+/**
+ * Root React component that renders a static weather-dashboard UI skeleton.
+ *
+ * The component returns a JSX fragment containing static labels and layout placeholders
+ * for units, temperature, humidity, wind, precipitation, a search prompt, and sections
+ * for daily and hourly forecasts. Placeholders (JSX comments) indicate where dynamic
+ * values (temperature, humidity, wind, precipitation, forecast data) should be inserted.
+ *
+ * This component accepts no props and has no internal state or side effects.
+ * @return {JSX.Element} The static UI markup for the app shell.
+ */
 function App() {
   return (
     <>
