@@ -97,3 +97,5 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Acknowledgments
 
 Shoutout to ChatGPT for helping me understand some concepts and troubleshoot issues during this project.
+
+Special thanks to GitHub Copilot for helping me review my code and providing intelligent suggestions throughout development. The AI-powered code completion and review features significantly improved my coding efficiency and helped catch potential issues early in the development process.
