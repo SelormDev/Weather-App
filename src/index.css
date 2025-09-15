@@ -1,6 +1,5 @@
 :root {
   font-family: 'Bricolage_Grotesque';
-  /* line-height: 1.5; */
   font-weight: 400;
 
   font-synthesis: none;
@@ -43,6 +42,8 @@
   --spacing-1400: 112px;
   --spacing-1600: 128px;
   --spacing-1800: 144px;
+
+  --radius-6: 6px;
 }
 
 @font-face {
@@ -73,4 +74,18 @@
 @font-face {
   font-family: "DM Sans SemiBold Italic";
   src: url("./assets/fonts/DM_Sans/static/DMSans-SemiBoldItalic.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: var(--spacing-200);
+}
+
+button {
+  all: unset;
 }

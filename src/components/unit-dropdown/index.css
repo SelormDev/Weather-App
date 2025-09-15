@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+}
+
+.button__container {
+    display: flex;
+    padding: var(--spacing-100) var(--spacing-125);
+    background: var(--colors-neutral-800);
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-075);
+    background-color: var(--neutral-800);
+    border-radius: var(--radius-6);
+    font-family: "DM Sans";
+    color: var(--neutral-0);
+    outline: none;
+    /* position: relative; */
+
+}
+
+.dropdown__container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 43px;
+    right: 0;
+    width: 214px;
+    background: var(--neutral-800);
+    border-radius: var(--radius-6);
+    padding: var(--spacing-075, 6px) var(--spacing-100, 8px);
+    z-index: 10;
+}
