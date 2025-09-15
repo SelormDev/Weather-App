@@ -7,6 +7,19 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --neutral-900: #02012c;
+  --neutral-800: #262540;
+  --neutral-700: #3e3b5a;
+  --neutral-600: #5c5878;
+  --neutral-300: #7a748f;
+  --neutral-200: #b1a9c4;
+  --neutral-0: #ffffff;
+
+  --blue--700: #2b1b9c;
+  --blue-500: #4658d9;
+
+  --orange-500: #ff820a;
 }
 
 @font-face {
