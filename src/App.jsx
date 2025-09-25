@@ -1,5 +1,6 @@
 import UnitsDropdown from "./components/unit-dropdown";
 import Logo from "./assets/images/logo.svg";
+import SearchIcon from "./assets/images/icon-search.svg";
 import "./App.css";
 
 /**
@@ -20,8 +21,21 @@ function App() {
         <img src={Logo} alt="App Logo" className="logo" />
         <UnitsDropdown />
       </header>
-      <h1 className="text-preset-2">How's the sky looking today?</h1> Search for
-      a city, e.g., New York Search Feels like
+      <h1 className="text-preset-2">How's the sky looking today?</h1>
+      <form action="" className="search-form text-preset-5-medium">
+        <div className="input-container">
+          <img src={SearchIcon} alt="Search Icon" />
+          <input
+            type="text"
+            id="city-search"
+            placeholder="Search for a place..."
+          />
+        </div>
+        <button type="submit" className="search-button">
+          Search
+        </button>
+      </form>
+      Feels like
       {/* Insert temperature here */}
       Humidity
       {/* Insert humidity here */}
