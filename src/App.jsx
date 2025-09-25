@@ -1,6 +1,7 @@
 import UnitsDropdown from "./components/unit-dropdown";
 import Logo from "./assets/images/logo.svg";
 import SearchIcon from "./assets/images/icon-search.svg";
+import SunnyTemperatureIcon from "./assets/images/icon-sunny.webp";
 import "./App.css";
 
 /**
@@ -35,14 +36,21 @@ function App() {
           Search
         </button>
       </form>
-      Feels like
-      {/* Insert temperature here */}
-      Humidity
-      {/* Insert humidity here */}
-      Wind
-      {/* Insert wind here */}
-      Precipitation
-      {/* Insert precipitation here */}
+      <div className="weather-info">
+        <div className="location-info">
+          <span className="city-name text-preset-4">Berlin, Germany</span>
+          <span className="date text-preset-6">Tuesday, Aug 5, 2025</span>
+        </div>
+
+        <div className="temperature-container">
+          <img
+            src={SunnyTemperatureIcon}
+            alt="Sunny Temperature Icon"
+            className="temperature-icon"
+          />
+          <span className="temperature text-preset-1">23°</span>
+        </div>
+      </div>
       Daily forecast
       {/* Insert daily forecast for the next 7 days here */}
       Hourly forecast
