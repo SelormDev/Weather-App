@@ -1,32 +1,87 @@
 .container {
     position: relative;
+
 }
 
-.button__container {
+.button-container {
     display: flex;
     padding: var(--spacing-100) var(--spacing-125);
     background: var(--colors-neutral-800);
     justify-content: center;
     align-items: center;
     gap: var(--spacing-075);
-    background-color: var(--neutral-800);
-    border-radius: var(--radius-6);
-    font-family: "DM Sans";
-    color: var(--neutral-0);
-    outline: none;
-    /* position: relative; */
+    background-color: var(--colors-neutral-800);
+    border-radius: var(--corner-radius-6);
+    color: var(--colors-neutral-0);
 
 }
 
-.dropdown__container {
+.dropdown-container {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 43px;
     right: 0;
     width: 214px;
-    background: var(--neutral-800);
-    border-radius: var(--radius-6);
+    background: var(--colors-neutral-800);
+    border-radius: var(--corner-radius-6);
     padding: var(--spacing-075, 6px) var(--spacing-100, 8px);
     z-index: 10;
+
+    .switch-button {
+        width: 182px;
+        padding: var(--spacing-125, 10px) var(--spacing-100, 8px);
+        color: var(--colors-neutral-0);
+        text-align: left;
+        margin-bottom: var(--spacing-050, 4px);
+        border-radius: var(--corner-radius-8, 8px);
+        background: var(--colors-neutral-700);
+    }
+}
+
+.dropdown-container__section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-050, 4px);
+
+    label {
+        display: flex;
+        padding: var(--spacing-075, 6px) var(--spacing-100, 8px) 0 var(--spacing-100, 8px);
+        align-items: center;
+        gap: 10px;
+        font-style: normal;
+        font-weight: 500;
+        align-self: stretch;
+        color: var(--colors-neutral-300);
+    }
+
+    .unitsOptions__container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-050, 4px);
+
+        button {
+
+            width: 182px;
+            padding: var(--spacing-125, 10px) var(--spacing-100, 8px);
+            border-radius: var(--corner-radius-8);
+            text-align: left;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .selected {
+            background: var(--colors-neutral-700);
+        }
+    }
+}
+
+hr {
+    height: 1px;
+    align-self: stretch;
+    border: none;
+    border-top: 1px solid var(--colors-neutral-600);
+    margin: var(--spacing-050, 4px) 0;
 }
