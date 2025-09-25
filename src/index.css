@@ -37,12 +37,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --colors-neutral-900: #02012c;
+  --colors-neutral-900: #02012C;
   --colors-neutral-800: #262540;
-  --colors-neutral-700: #3e3b5a;
-  --colors-neutral-600: #5c5878;
-  --colors-neutral-300: #7a748f;
-  --colors-neutral-200: #b1a9c4;
+  --colors-neutral-700: #302F4A;
+  --colors-neutral-600: #3C3B5E;
+  --colors-neutral-300: #ACACB7;
+  --colors-neutral-200: #D4D3D9;
   --colors-neutral-0: #ffffff;
 
   --blue--700: #2b1b9c;
@@ -116,10 +116,10 @@
   --text-preset-5-letter-spacing: 0%;
 
   /* Text Preset 5 (Medium) */
-  --text-preset-5-font-size: 20px;
-  --text-preset-5-font-family: "DM Sans Medium";
-  --text-preset-5-line-height: 120%;
-  --text-preset-5-letter-spacing: 0%;
+  --text-preset-5-medium-font-size: 20px;
+  --text-preset-5-medium-font-family: "DM Sans Medium";
+  --text-preset-5-medium-line-height: 120%;
+  --text-preset-5-medium-letter-spacing: 0%;
 
   /* Text Preset 6 */
   --text-preset-6-font-size: 18px;
@@ -177,6 +177,12 @@
   font-size: var(--text-preset-5-font-size);
   font-family: var(--text-preset-5-font-family);
   line-height: var(--text-preset-5-line-height);
+}
+
+.text-preset-5-medium {
+  font-size: var(--text-preset-5-medium-font-size);
+  font-family: var(--text-preset-5-medium-font-family);
+  line-height: var(--text-preset-5-medium-line-height);
 }
 
 .text-preset-6 {
