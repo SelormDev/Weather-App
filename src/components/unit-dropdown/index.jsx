@@ -38,9 +38,17 @@ function UnitsDropdown() {
         className="button-container text-preset-7"
         onClick={toggleDropdown}
       >
-        <img src={settingsIcon} alt="Settings Icon" className="" />
+        <img
+          src={settingsIcon}
+          alt="Settings Icon"
+          className="icon settings-icon"
+        />
         Units
-        <img src={unitDropdownIcon} alt="Dropdown Icon" className="" />
+        <img
+          src={unitDropdownIcon}
+          alt="Dropdown Icon"
+          className="icon dropdown-icon"
+        />
       </button>
 
       {/* Dropdown */}

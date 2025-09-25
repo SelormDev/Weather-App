@@ -85,3 +85,15 @@ hr {
     border-top: 1px solid var(--colors-neutral-600);
     margin: var(--spacing-050) 0;
 }
+
+.settings-icon {
+    width: 14px;
+    height: 14px;
+    color: var(--colors-neutral-300);
+}
+
+.dropdown-icon {
+    width: 12px;
+    height: 18px;
+    color: var(--colors-neutral-300);
+}
