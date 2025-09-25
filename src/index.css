@@ -37,21 +37,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --neutral-900: #02012c;
-  --neutral-800: #262540;
-  --neutral-700: #3e3b5a;
-  --neutral-600: #5c5878;
-  --neutral-300: #7a748f;
-  --neutral-200: #b1a9c4;
-  --neutral-0: #ffffff;
+  --colors-neutral-900: #02012c;
+  --colors-neutral-800: #262540;
+  --colors-neutral-700: #3e3b5a;
+  --colors-neutral-600: #5c5878;
+  --colors-neutral-300: #7a748f;
+  --colors-neutral-200: #b1a9c4;
+  --colors-neutral-0: #ffffff;
 
   --blue--700: #2b1b9c;
   --blue-500: #4658d9;
 
   --orange-500: #ff820a;
 
-  background-color: var(--neutral-900);
-  color: var(--neutral-0);
+  background-color: var(--colors-neutral-900);
+  color: var(--colors-neutral-0);
 
   --spacing-0: 0px;
   --spacing-025: 2px;
@@ -73,7 +73,17 @@
   --spacing-1600: 128px;
   --spacing-1800: 144px;
 
-  --radius-6: 6px;
+  --corner-radius-0: 0px;
+  --corner-radius-4: 4px;
+  --corner-radius-6: 6px;
+  --corner-radius-8: 8px;
+  --corner-radius-10: 10px;
+  --corner-radius-12: 12px;
+  --corner-radius-16: 16px;
+  --corner-radius-20: 20px;
+  --corner-radius-24: 24px;
+  --corner-radius-full: 999px;
+
 
   /* Text Preset 1 */
   --text-preset-1-font-size: 96px;
