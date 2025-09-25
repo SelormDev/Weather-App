@@ -20,8 +20,8 @@ function App() {
         <img src={Logo} alt="App Logo" className="logo" />
         <UnitsDropdown />
       </header>
-      <h1>How's the sky looking today?</h1> Search for a city, e.g., New York
-      Search Feels like
+      <h1 className="text-preset-2">How's the sky looking today?</h1> Search for
+      a city, e.g., New York Search Feels like
       {/* Insert temperature here */}
       Humidity
       {/* Insert humidity here */}

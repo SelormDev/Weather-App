@@ -4,6 +4,11 @@
    align-items: center;
  }
 
+ h1 {
+   text-align: center;
+   margin: var(--spacing-600) 0;
+ }
+
  .logo {
    width: 138px;
  }
