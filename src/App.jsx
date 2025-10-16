@@ -3,6 +3,7 @@ import Logo from "./assets/images/logo.svg";
 import SearchIcon from "./assets/images/icon-search.svg";
 import SunnyTemperatureIcon from "./assets/images/icon-sunny.webp";
 import "./App.css";
+import WeatherVariable from "./components/weather-variable";
 
 /**
  * Root React component that renders a static weather-dashboard UI skeleton.
@@ -48,8 +49,14 @@ function App() {
             alt="Sunny Temperature Icon"
             className="temperature-icon"
           />
-          <span className="temperature text-preset-1">23°</span>
+          <span className="temperature text-preset-1">20°</span>
         </div>
+      </div>
+      <div className="weather-variables">
+        <WeatherVariable label="Feels like" value="18°" />
+        <WeatherVariable label="Humidity" value="46%" />
+        <WeatherVariable label="Wind" value="14 km/h" />
+        <WeatherVariable label="Precipitation" value="0 mm" />
       </div>
       Daily forecast
       {/* Insert daily forecast for the next 7 days here */}

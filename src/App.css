@@ -7,6 +7,7 @@
  h1 {
    text-align: center;
    margin: var(--spacing-600) 0;
+   align-self: stretch;
  }
 
  .search-form {
@@ -65,12 +66,12 @@
 
    .search-button {
      display: flex;
-     padding: var(--spacing-200, 16px) var(--spacing-300, 24px);
+     padding: var(--spacing-200) var(--spacing-300);
      justify-content: center;
      align-items: center;
-     gap: var(--spacing-200, 16px);
+     gap: var(--spacing-200);
      align-self: stretch;
-     border-radius: var(--corner-radius-12, 12px);
+     border-radius: var(--corner-radius-12);
      background: var(--colors-blue-500, #4658D9);
    }
 
@@ -81,11 +82,11 @@
    width: 343px;
    height: 286px;
    margin: 0 auto;
-   padding: var(--spacing-1000, 80px) var(--spacing-300, 24px);
+   padding: var(--spacing-1000) var(--spacing-300);
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   gap: var(--spacing-200, 16px);
+   gap: var(--spacing-200);
    background-image: url('./assets/images/bg-today-small.svg');
 
    .location-info {
@@ -109,9 +110,22 @@
    }
  }
 
+ .weather-variables {
+   margin: var(--spacing-250) auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   gap: 16px var(--spacing-200, 16px);
+   align-self: stretch;
+   flex-wrap: wrap;
+
+ }
+
  .logo {
    width: 138px;
  }
+
 
  .attribution {
    font-size: 11px;
