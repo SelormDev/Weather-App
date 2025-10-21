@@ -4,6 +4,7 @@ import SearchIcon from "./assets/images/icon-search.svg";
 import SunnyTemperatureIcon from "./assets/images/icon-sunny.webp";
 import "./App.css";
 import WeatherVariable from "./components/weather-variable";
+import DailyForecastCard from "./components/daily_forcast_card";
 
 /**
  * Root React component that renders a static weather-dashboard UI skeleton.
@@ -58,9 +59,55 @@ function App() {
         <WeatherVariable label="Wind" value="14 km/h" />
         <WeatherVariable label="Precipitation" value="0 mm" />
       </div>
-      Daily forecast
+      <div className="daily-forecast-container">
+        <h2 className="text-preset-5">Daily forecast</h2>
+        <div className="daily-forecast">
+          <DailyForecastCard
+            day="Wed"
+            weatherIcon={SunnyTemperatureIcon}
+            maxTemp={22}
+            minTemp={16}
+          />
+          <DailyForecastCard
+            day="Thu"
+            weatherIcon={SunnyTemperatureIcon}
+            maxTemp={24}
+            minTemp={18}
+          />
+          <DailyForecastCard
+            day="Fri"
+            weatherIcon={SunnyTemperatureIcon}
+            maxTemp={21}
+            minTemp={15}
+          />
+          <DailyForecastCard
+            day="Sat"
+            weatherIcon={SunnyTemperatureIcon}
+            maxTemp={23}
+            minTemp={17}
+          />
+          <DailyForecastCard
+            day="Sun"
+            weatherIcon={SunnyTemperatureIcon}
+            maxTemp={25}
+            minTemp={19}
+          />
+          <DailyForecastCard
+            day="Mon"
+            weatherIcon={SunnyTemperatureIcon}
+            maxTemp={20}
+            minTemp={14}
+          />
+          <DailyForecastCard
+            day="Tue"
+            weatherIcon={SunnyTemperatureIcon}
+            maxTemp={22}
+            minTemp={16}
+          />
+        </div>
+      </div>
       {/* Insert daily forecast for the next 7 days here */}
-      Hourly forecast
+      <h2 className="text-preset-5">Hourly forecast</h2>
       {/* Insert hourly forecast for the selected day here */}
       <div className="attribution">
         Challenge by{" "}

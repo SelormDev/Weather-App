@@ -1,0 +1,26 @@
+.daily-forecast-card {
+    display: flex;
+    width: 103.66px;
+    padding: var(--spacing-200, 16px) var(--spacing-125, 10px);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-200, 16px);
+    border-radius: var(--corner-radius-12, 12px);
+    border: 1px solid var(--colors-neutral-600, #3C3B5E);
+    background: var(--colors-neutral-800, #262540);
+
+    img {
+        width: 60px;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        aspect-ratio: 1/1;
+    }
+
+    .temperature-range {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+}
