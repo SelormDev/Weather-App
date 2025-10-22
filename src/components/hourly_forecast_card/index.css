@@ -1,0 +1,37 @@
+.hourly-forecast-container {
+    display: flex;
+    padding: 20px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-200, 16px);
+    align-self: stretch;
+    border-radius: var(--corner-radius-20, 20px);
+    background: var(--colors-neutral-800, #262540);
+
+    .hourly-forecast-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        align-self: stretch;
+    }
+
+    .hourly-weather-card {
+        display: flex;
+        padding: var(--spacing-125, 10px) var(--spacing-200, 16px) var(--spacing-125, 10px) var(--spacing-150, 12px);
+        align-items: center;
+        gap: var(--spacing-100, 8px);
+        align-self: stretch;
+        border-radius: var(--corner-radius-8, 8px);
+        border: 1px solid var(--colors-neutral-600, #3C3B5E);
+        background: var(--colors-neutral-700, #302F4A);
+
+        img {
+            display: flex;
+            width: 40px;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+            aspect-ratio: 1/1;
+        }
+    }
+}
