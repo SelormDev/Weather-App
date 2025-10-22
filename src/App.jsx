@@ -5,6 +5,7 @@ import SunnyTemperatureIcon from "./assets/images/icon-sunny.webp";
 import "./App.css";
 import WeatherVariable from "./components/weather-variable";
 import DailyForecastCard from "./components/daily_forcast_card";
+import HourlyForecastCard from "./components/hourly_forecast_card";
 
 /**
  * Root React component that renders a static weather-dashboard UI skeleton.
@@ -106,9 +107,12 @@ function App() {
           />
         </div>
       </div>
-      {/* Insert daily forecast for the next 7 days here */}
-      <h2 className="text-preset-5">Hourly forecast</h2>
-      {/* Insert hourly forecast for the selected day here */}
+      <HourlyForecastCard
+        day="Wednesday"
+        times={["1 AM", "4 AM", "7 AM", "10 AM", "1 PM", "4 PM"]}
+        weatherIcon={SunnyTemperatureIcon}
+        temperature={20}
+      />
       <div className="attribution">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge">
